@@ -11,7 +11,7 @@ class Valvat
         'DK' => /\ADK[0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2}\Z/,                                           # Denmark
         'EE' => /\AEE[0-9]{9}\Z/,                                           # Estonia
         'GR' => /\AEL[0-9]{9}\Z/,                                           # Greece
-        'ES' => /\AES([A-Z0-9][0-9]{7}[A-Z0-9]\Z/,                          # Spain
+        'ES' => /\AES[A-Z0-9][0-9]{7}[A-Z0-9]\Z/,                           # Spain
         'FI' => /\AFI[0-9]{8}\Z/,                                           # Finland
         'FR' => /\AFR[A-Z0-9]{2}[0-9]{9}\Z/,                                # France
         'GB' => /\AGB([0-9]{3} [0-9]{4} [0-9]{2}( [0-9]{3})?|(HA|GD)[0-9]{3})\Z/,               # United Kingdom
