@@ -1,5 +1,6 @@
 class Valvat
   def initialize(raw)
+    #@raw = Valvat::Utils.normalize(raw || "")
     @raw = raw
     @vat_country_code, @to_s_wo_country = to_a
   end
